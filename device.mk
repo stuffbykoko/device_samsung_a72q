@@ -34,3 +34,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera (id 52 is telephoto)
 $(call soong_config_set,samsungCameraVars,extra_ids,52)
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(DEVICE_PATH)

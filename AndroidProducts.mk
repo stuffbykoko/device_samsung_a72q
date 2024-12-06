@@ -15,8 +15,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_a72q.mk
-
-COMMON_LUNCH_CHOICES := \
-    aosp_a72q-userdebug \
-    aosp_a72q-user \
-    aosp_a72q-eng

@@ -1,0 +1,9 @@
+
+// Init files
+
+prebuilt_etc {
+    name: "init.a72q.rc",
+    src: "etc/init.a72q.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}

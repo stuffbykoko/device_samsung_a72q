@@ -24,12 +24,6 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 TARGET_KERNEL_CONFIG        := vendor/pixelos-a72q_defconfig vendor/debugfs.config
 BOARD_NAME                  := SRPTJ06B001
 
-# Camera
-SOONG_CONFIG_NAMESPACES += samsungCameraVars
-SOONG_CONFIG_samsungCameraVars += extra_ids
-# ID=52 is telephoto
-SOONG_CONFIG_samsungCameraVars_extra_ids := 52
-
 # Display
 TARGET_SCREEN_DENSITY := 450
 

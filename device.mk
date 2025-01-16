@@ -31,3 +31,6 @@ PRODUCT_PACKAGES += \
 # Audio
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
+
+# Camera (id 52 is telephoto)
+$(call soong_config_set,samsungCameraVars,extra_ids,52)
